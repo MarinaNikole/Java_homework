@@ -1,17 +1,20 @@
 public class Person {
-   // public static void main(String[] args) {
 
-        String name = "James";
-        String surname = "Gosling";
-        int yearOfBirth = 1955;
+    String name;
+    String surname;
+    int yearOfBirth;
 
-        public static int JavaBirth = 1995;
+    public static void main(String[] args) {
+        Person a = new Person();
 
-       /* System.out.println("Name: " + name);
-         System.out.println("Surname: " + surname);
-         System.out.println("Year of birth: " + yearOfBirth);
-*/
-  //}
+        a.name = "James";
+        a.surname = "Gosling";
+        a.yearOfBirth = 1955;
 
+        System.out.println("Name: " + a.name);
+        System.out.println("Surname: " + a.surname);
+        System.out.println("Year of birth: " + a.yearOfBirth);
+
+    }
 }
 
